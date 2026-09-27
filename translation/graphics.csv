@@ -1,0 +1,268 @@
+﻿분류,파일,텍스처명,너비,높이,포맷,사용처수,원본경로,북미판대응
+공용 아이콘,resident_imsg.png,imsg,256,128,LA4,1,jp/00.arc/resident/00.bcres,Y
+기타 info,info_a010_CI_001.png,CI_001,128,64,RGBA5551,2,jp/info/a010.zrc/info/00.bcres | jp/info/a070.zrc/info/00.bcres,Y
+대전 UI,info_multi_vc_01.png,vc_01,256,256,ETC1A4,1,jp/info/multi.zrc/info/00.bcres,Y
+대전 UI,info_multi_vc_02.png,vc_02,256,256,ETC1A4,1,jp/info/multi.zrc/info/00.bcres,Y
+대전 UI,info_multi_vm_00.png,vm_00,256,256,LA4,1,jp/info/multi.zrc/info/00.bcres,Y
+대전 UI,info_multi_vm_01.png,vm_01,256,256,LA4,1,jp/info/multi.zrc/info/00.bcres,Y
+메뉴,menu_000_MenShowTop0000.png,MenShowTop0000,512,256,LA4,1,jp/menu/000.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_010_MenSselBt_Lang0003.png,MenSselBt_Lang0003,256,256,ETC1,2,jp/menu/010.zrc/menu/bind.arc/bind/00.bcres | jp/menu/011.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_010_MenSselBt_Lang0004.png,MenSselBt_Lang0004,256,256,ETC1,2,jp/menu/010.zrc/menu/bind.arc/bind/00.bcres | jp/menu/011.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_010_MenSselBt_Lang0005.png,MenSselBt_Lang0005,256,256,ETC1,2,jp/menu/010.zrc/menu/bind.arc/bind/00.bcres | jp/menu/011.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_020_MenCmnBack_Lang0001.png,MenCmnBack_Lang0001,128,64,L4,1,jp/menu/020.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_030_MenSgHomeBt004.png,MenSgHomeBt004,128,256,LA4,2,jp/menu/030.zrc/menu/bind.arc/bind/00.bcres | jp/menu/031.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_040_MenTopBt_Lang0002.png,MenTopBt_Lang0002,256,256,RGBA4,1,jp/menu/040.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_040_MenTopUp_Lang0000.png,MenTopUp_Lang0000,256,256,LA4,1,jp/menu/040.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_040_MenTopUp_Lang0001.png,MenTopUp_Lang0001,256,128,LA4,1,jp/menu/040.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_050_MenBetheartBtLang0000.png,MenBetheartBtLang0000,256,128,RGBA4,1,jp/menu/050.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_050_MenBetheartUp0004.png,MenBetheartUp0004,256,256,L4,1,jp/menu/050.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_100_MenTraining_Lang0000.png,MenTraining_Lang0000,256,256,LA4,2,jp/menu/100.zrc/menu/bind.arc/bind/00.bcres | jp/menu/101.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_110_MenAlterUp0001.png,MenAlterUp0001,256,128,LA4,2,jp/menu/110.zrc/menu/bind.arc/bind/00.bcres | jp/menu/111.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_140_MenEqipUp0004.png,MenEqipUp0004,128,128,LA4,2,jp/menu/140.zrc/menu/bind.arc/bind/00.bcres | jp/menu/141.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_150_MenOnlineTopBt_Lang0004.png,MenOnlineTopBt_Lang0004,256,256,ETC1A4,1,jp/menu/150.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_150_MenOnlineTopUp_Lang0004.png,MenOnlineTopUp_Lang0004,256,32,L4,1,jp/menu/150.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_150_MenOnlineTopUp_Lang0005.png,MenOnlineTopUp_Lang0005,256,32,ETC1A4,1,jp/menu/150.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_160_MenColTopUp_Lang0001.png,MenColTopUp_Lang0001,256,32,L4,1,jp/menu/160.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_160_MenColTop_Lang0004.png,MenColTop_Lang0004,256,256,ETC1A4,1,jp/menu/160.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_160_MenColTop_Lang0005.png,MenColTop_Lang0005,128,128,ETC1A4,1,jp/menu/160.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_170_MenOptionCmn_Lang0000.png,MenOptionCmn_Lang0000,128,64,L4,1,jp/menu/170.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_170_MenOptionTopBt_Lang00000.png,MenOptionTopBt_Lang00000,128,128,L4,1,jp/menu/170.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_180_MenEqipUp0001.png,MenEqipUp0001,128,16,LA4,2,jp/menu/180.zrc/menu/bind.arc/bind/00.bcres | jp/menu/181.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_190_MenOptionCmn_Lang0000.png,MenOptionCmn_Lang0000,128,64,L4,1,jp/menu/190.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_190_MenOptionCmn_Ruby0.png,MenOptionCmn_Ruby0,128,16,L4,1,jp/menu/190.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_190_MenOptionSousaBt_Lang00000.png,MenOptionSousaBt_Lang00000,256,256,L4,1,jp/menu/190.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_200_MenOptionCmn_Lang0000.png,MenOptionCmn_Lang0000,128,64,L4,1,jp/menu/200.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_200_MenOptionCmn_Ruby0.png,MenOptionCmn_Ruby0,128,16,L4,1,jp/menu/200.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_210_MenOptionCmn_Lang0000.png,MenOptionCmn_Lang0000,128,64,L4,1,jp/menu/210.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_210_MenOptionCmn_Ruby0.png,MenOptionCmn_Ruby0,128,16,L4,1,jp/menu/210.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_210_MenOptionSoundBt_Lang00000.png,MenOptionSoundBt_Lang00000,256,512,L8,1,jp/menu/210.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_220_MenOptionCmn_Lang0000.png,MenOptionCmn_Lang0000,128,64,L4,1,jp/menu/220.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_220_MenOptionCmn_Ruby0.png,MenOptionCmn_Ruby0,128,16,L4,1,jp/menu/220.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_220_MenOptionIconnect0000.png,MenOptionIconnect0000,256,32,L4,1,jp/menu/220.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_220_MenOptionOthersBt_Lang0001.png,MenOptionOthersBt_Lang0001,256,128,L4,1,jp/menu/220.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_220_MenOptionOthersUp_Lang0000.png,MenOptionOthersUp_Lang0000,64,16,L4,1,jp/menu/220.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_230_MenOptCptBt_Lang0000.png,MenOptCptBt_Lang0000,128,128,L4,1,jp/menu/230.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_240_MenOptExtraBt_Lang0000.png,MenOptExtraBt_Lang0000,256,64,L4,1,jp/menu/240.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_240_MenOptionCmn_Lang0000.png,MenOptionCmn_Lang0000,128,64,L4,1,jp/menu/240.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_240_MenOptionExtraUp0000.png,MenOptionExtraUp0000,256,128,ETC1A4,1,jp/menu/240.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_240_MenOptionExtraUp_Lang0001.png,MenOptionExtraUp_Lang0001,512,128,ETC1,1,jp/menu/240.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_250_MenOptionCmn_Lang0000.png,MenOptionCmn_Lang0000,128,64,L4,1,jp/menu/250.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_250_MenOptionCmn_Ruby0.png,MenOptionCmn_Ruby0,128,16,L4,1,jp/menu/250.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_250_MenOptionJogeBt_Lang0000.png,MenOptionJogeBt_Lang0000,128,32,L4,1,jp/menu/250.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_250_MenOptionJogeBt_Lang0001.png,MenOptionJogeBt_Lang0001,128,32,L4,1,jp/menu/250.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_270_MenOnlineTopUp_Lang0004.png,MenOnlineTopUp_Lang0004,256,32,L4,1,jp/menu/270.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_270_MenOnlineWifiBt_Lang0004.png,MenOnlineWifiBt_Lang0004,256,128,ETC1A4,1,jp/menu/270.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_280_MenOnSlgmBt_Dynamic0000.png,MenOnSlgmBt_Dynamic0000,128,32,ETC1A4,1,jp/menu/280.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_280_MenOnSlgmBt_Dynamic0001.png,MenOnSlgmBt_Dynamic0001,128,32,ETC1A4,1,jp/menu/280.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_280_MenOnlineSelgmBt_Lang0009.png,MenOnlineSelgmBt_Lang0009,256,512,ETC1A4,1,jp/menu/280.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_280_MenOnlineSelgmBt_Lang0010.png,MenOnlineSelgmBt_Lang0010,128,32,ETC1A4,1,jp/menu/280.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_280_MenOnlineSelgmUp_Lang0003.png,MenOnlineSelgmUp_Lang0003,256,128,ETC1A4,1,jp/menu/280.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_280_MenOnlineSelgmUp_Lang0004.png,MenOnlineSelgmUp_Lang0004,256,128,L4,1,jp/menu/280.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_290_MenOnListBt_Lang0005.png,MenOnListBt_Lang0005,128,32,ETC1A4,1,jp/menu/290.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_290_MenOnListBt_Lang0007.png,MenOnListBt_Lang0007,128,64,ETC1A4,1,jp/menu/290.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_300_BBoveUp0001.png,BBoveUp0001,256,32,L4,1,jp/menu/300.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_310_MenOnSrlUp_Dynamic10000.png,MenOnSrlUp_Dynamic10000,256,64,ETC1,1,jp/menu/310.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_310_MenOnSrlUp_Dynamic10001.png,MenOnSrlUp_Dynamic10001,256,64,ETC1,1,jp/menu/310.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_310_MenOnSrlUp_Dynamic10002.png,MenOnSrlUp_Dynamic10002,256,64,ETC1,1,jp/menu/310.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_310_MenOnSrlUp_Dynamic10003.png,MenOnSrlUp_Dynamic10003,256,64,ETC1,1,jp/menu/310.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_310_MenOnSrlUp_Dynamic10004.png,MenOnSrlUp_Dynamic10004,256,64,ETC1,1,jp/menu/310.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_310_MenOnSrlUp_Dynamic10005.png,MenOnSrlUp_Dynamic10005,256,64,ETC1,1,jp/menu/310.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_310_MenOnSrlUp_Dynamic10006.png,MenOnSrlUp_Dynamic10006,256,64,ETC1,1,jp/menu/310.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_310_MenOnSrlUp_Dynamic10007.png,MenOnSrlUp_Dynamic10007,256,64,ETC1,1,jp/menu/310.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_310_MenOnSrlUp_Dynamic10008.png,MenOnSrlUp_Dynamic10008,256,64,ETC1,1,jp/menu/310.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_310_MenOnSrlUp_Dynamic10009.png,MenOnSrlUp_Dynamic10009,256,64,ETC1,1,jp/menu/310.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_310_MenOnSrlUp_Dynamic10010.png,MenOnSrlUp_Dynamic10010,256,64,ETC1,1,jp/menu/310.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_310_MenOnSrlUp_Dynamic10011.png,MenOnSrlUp_Dynamic10011,256,64,ETC1,1,jp/menu/310.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_310_MenOnSrlUp_Dynamic10012.png,MenOnSrlUp_Dynamic10012,256,64,ETC1,1,jp/menu/310.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_310_MenOnlineSelrlBt_Lang0014.png,MenOnlineSelrlBt_Lang0014,256,256,ETC1A4,1,jp/menu/310.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_310_MenOnlineTopUp_Lang0004.png,MenOnlineTopUp_Lang0004,256,32,L4,1,jp/menu/310.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_320_MenOnEq01Bt_Lang0022.png,MenOnEq01Bt_Lang0022,256,128,ETC1A4,1,jp/menu/320.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_320_MenOnEq01Bt_Lang0023.png,MenOnEq01Bt_Lang0023,256,128,L4,1,jp/menu/320.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_320_MenOnEq01Bt_Lang0026.png,MenOnEq01Bt_Lang0026,64,32,ETC1A4,1,jp/menu/320.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_320_MenOnEq01Bt_Lang0027.png,MenOnEq01Bt_Lang0027,64,64,L4,2,jp/menu/320.zrc/menu/bind.arc/bind/00.bcres | jp/menu/330.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_330_MenOnSeleq02Bt_Lang0001.png,MenOnSeleq02Bt_Lang0001,64,32,ETC1A4,1,jp/menu/330.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_330_MenOnSeleq02Bt_Lang0003.png,MenOnSeleq02Bt_Lang0003,64,128,ETC1A4,1,jp/menu/330.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_340_MenOnRsbtBt_Dynamic00001.png,MenOnRsbtBt_Dynamic00001,32,32,ETC1A4,1,jp/menu/340.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_340_MenOnRsbtBt_Dynamic00002.png,MenOnRsbtBt_Dynamic00002,32,32,ETC1A4,1,jp/menu/340.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_340_MenOnRsbtBt_Dynamic00003.png,MenOnRsbtBt_Dynamic00003,32,32,ETC1A4,1,jp/menu/340.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_340_MenOnRsbtBt_Dynamic00004.png,MenOnRsbtBt_Dynamic00004,32,32,ETC1A4,1,jp/menu/340.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_340_MenOnRsbtBt_Dynamic00005.png,MenOnRsbtBt_Dynamic00005,32,32,ETC1A4,1,jp/menu/340.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_340_MenOnRsbtBt_Dynamic00006.png,MenOnRsbtBt_Dynamic00006,32,32,ETC1A4,1,jp/menu/340.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_340_MenOnRsteBt_Lang0023.png,MenOnRsteBt_Lang0023,128,32,ETC1A4,1,jp/menu/340.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_340_MenOnRsteBt_Lang0025.png,MenOnRsteBt_Lang0025,128,32,ETC1A4,1,jp/menu/340.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_340_MenOnRsteBt_Lang0026.png,MenOnRsteBt_Lang0026,128,32,ETC1A4,1,jp/menu/340.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_340_MenOnRsteBt_Lang0027.png,MenOnRsteBt_Lang0027,128,32,ETC1A4,1,jp/menu/340.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_340_MenOnRsteUp_Dynamic00000.png,MenOnRsteUp_Dynamic00000,64,64,ETC1A4,1,jp/menu/340.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_340_MenOnRsteUp_Dynamic00001.png,MenOnRsteUp_Dynamic00001,64,64,ETC1A4,1,jp/menu/340.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_340_MenOnRsteUp_Lang0006.png,MenOnRsteUp_Lang0006,256,32,ETC1A4,1,jp/menu/340.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_360_MenColTopUp_Lang0001.png,MenColTopUp_Lang0001,256,32,L4,1,jp/menu/360.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_370_MenAltersoldUp_Lang0000.png,MenAltersoldUp_Lang0000,128,32,LA4,2,jp/menu/370.zrc/menu/bind.arc/bind/00.bcres | jp/menu/371.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_380_MenColTopUp_Lang0001.png,MenColTopUp_Lang0001,256,32,L4,1,jp/menu/380.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_390_MenOptionCmn_Lang0000.png,MenOptionCmn_Lang0000,128,64,L4,1,jp/menu/390.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_400_MenPreHelpBt_Lang0000.png,MenPreHelpBt_Lang0000,256,128,ETC1A4,1,jp/menu/400.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_400_MenPreHelpUp_Lang0001.png,MenPreHelpUp_Lang0001,512,64,ETC1A4,1,jp/menu/400.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_400_MenPreHelpUp_Lang0002.png,MenPreHelpUp_Lang0002,256,64,ETC1A4,1,jp/menu/400.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_400_MenPreHelpUp_Lang0003.png,MenPreHelpUp_Lang0003,512,64,ETC1A4,1,jp/menu/400.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_410_MenPreSeedBt_Lang0006.png,MenPreSeedBt_Lang0006,256,256,ETC1A4,1,jp/menu/410.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_420_MenEquipBt0100.png,MenEquipBt0100,256,256,L4,2,jp/menu/420.zrc/menu/bind.arc/bind/00.bcres | jp/menu/421.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_450_MenSelfileUp0011.png,MenSelfileUp0011,512,256,ETC1,1,jp/menu/450.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_460_MenColBt_Lang0003.png,MenColBt_Lang0003,256,32,ETC1A4,1,jp/menu/460.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_470_MenColPazBt_Lang0000.png,MenColPazBt_Lang0000,128,128,ETC1A4,1,jp/menu/470.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_470_MenColPazBt_Lang0001.png,MenColPazBt_Lang0001,128,32,ETC1A4,1,jp/menu/470.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_470_MenColPazUp0001.png,MenColPazUp0001,256,64,ETC1A4,1,jp/menu/470.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_480_MenColGifBt_Lang0000.png,MenColGifBt_Lang0000,64,64,ETC1A4,2,jp/menu/480.zrc/menu/bind.arc/bind/00.bcres | jp/menu/481.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_510_MenConBt_Dynamic0000.png,MenConBt_Dynamic0000,128,32,L4,2,jp/menu/510.zrc/menu/bind.arc/bind/00.bcres | jp/menu/530.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_510_MenConBt_Dynamic0001.png,MenConBt_Dynamic0001,128,32,L4,2,jp/menu/510.zrc/menu/bind.arc/bind/00.bcres | jp/menu/530.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_510_MenConBt_Dynamic0002.png,MenConBt_Dynamic0002,128,32,L4,2,jp/menu/510.zrc/menu/bind.arc/bind/00.bcres | jp/menu/530.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_510_MenConBt_Dynamic0003.png,MenConBt_Dynamic0003,128,32,L8,2,jp/menu/510.zrc/menu/bind.arc/bind/00.bcres | jp/menu/530.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_510_MenConBt_Dynamic0004.png,MenConBt_Dynamic0004,128,32,L4,2,jp/menu/510.zrc/menu/bind.arc/bind/00.bcres | jp/menu/530.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_510_MenConBt_Dynamic0005.png,MenConBt_Dynamic0005,128,32,L8,2,jp/menu/510.zrc/menu/bind.arc/bind/00.bcres | jp/menu/530.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_510_MenConBt_Dynamic0006.png,MenConBt_Dynamic0006,128,32,L4,2,jp/menu/510.zrc/menu/bind.arc/bind/00.bcres | jp/menu/530.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_510_MenConBt_Dynamic0007.png,MenConBt_Dynamic0007,128,32,L4,2,jp/menu/510.zrc/menu/bind.arc/bind/00.bcres | jp/menu/530.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_510_MenConBt_Dynamic0008.png,MenConBt_Dynamic0008,128,32,L4,2,jp/menu/510.zrc/menu/bind.arc/bind/00.bcres | jp/menu/530.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_510_MenConBt_Dynamic0009.png,MenConBt_Dynamic0009,128,32,L4,2,jp/menu/510.zrc/menu/bind.arc/bind/00.bcres | jp/menu/530.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_510_MenConBt_Lang0002.png,MenConBt_Lang0002,256,128,L4,1,jp/menu/510.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_510_MenConBt_Lang0004.png,MenConBt_Lang0004,128,32,L4,2,jp/menu/510.zrc/menu/bind.arc/bind/00.bcres | jp/menu/530.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_540_MenColArBt0003.png,MenColArBt0003,256,64,ETC1A4,1,jp/menu/540.zrc/menu/bind.arc/bind/00.bcres,Y
+메뉴,menu_550_MenOnListBt_Lang0005.png,MenOnListBt_Lang0005,128,32,ETC1A4,1,jp/menu/550.zrc/menu/bind.arc/bind/00.bcres,Y
+보스 이름 배너,info_a030_BL_000.png,BL_000,256,256,ETC1A4,1,jp/info/a030.zrc/info/00.bcres,Y
+보스 이름 배너,info_a030_BR_000.png,BR_000,64,256,ETC1A4,1,jp/info/a030.zrc/info/00.bcres,Y
+보스 이름 배너,info_a060_BL_000.png,BL_000,256,256,ETC1A4,2,jp/info/a060.zrc/info/00.bcres | jp/info/g060.zrc/info/00.bcres,Y
+보스 이름 배너,info_a060_BR_000.png,BR_000,64,256,ETC1A4,2,jp/info/a060.zrc/info/00.bcres | jp/info/g060.zrc/info/00.bcres,Y
+보스 이름 배너,info_a090_BL_000.png,BL_000,256,256,ETC1A4,1,jp/info/a090.zrc/info/00.bcres,Y
+보스 이름 배너,info_a090_BR_000.png,BR_000,64,256,ETC1A4,1,jp/info/a090.zrc/info/00.bcres,Y
+보스 이름 배너,info_a120_BL_000.png,BL_000,256,256,ETC1A4,1,jp/info/a120.zrc/info/00.bcres,Y
+보스 이름 배너,info_a120_BR_000.png,BR_000,64,256,ETC1A4,1,jp/info/a120.zrc/info/00.bcres,Y
+보스 이름 배너,info_a170_BL_000.png,BL_000,256,256,ETC1A4,1,jp/info/a170.zrc/info/00.bcres,Y
+보스 이름 배너,info_a170_BR_000.png,BR_000,64,256,ETC1A4,1,jp/info/a170.zrc/info/00.bcres,Y
+보스 이름 배너,info_a210_BL_000.png,BL_000,256,256,ETC1A4,3,jp/info/a210.zrc/info/00.bcres | jp/info/b200.zrc/info/00.bcres | jp/info/g210.zrc/info/00.bcres,Y
+보스 이름 배너,info_a210_BR_000.png,BR_000,64,256,ETC1A4,3,jp/info/a210.zrc/info/00.bcres | jp/info/b200.zrc/info/00.bcres | jp/info/g210.zrc/info/00.bcres,Y
+보스 이름 배너,info_a220_BL_000.png,BL_000,256,256,ETC1A4,1,jp/info/a220.zrc/info/00.bcres,Y
+보스 이름 배너,info_a220_BR_000.png,BR_000,64,256,ETC1A4,1,jp/info/a220.zrc/info/00.bcres,Y
+보스 이름 배너,info_a230_BL_000.png,BL_000,256,256,ETC1A4,1,jp/info/a230.zrc/info/00.bcres,Y
+보스 이름 배너,info_a230_BR_000.png,BR_000,64,256,ETC1A4,1,jp/info/a230.zrc/info/00.bcres,Y
+보스 이름 배너,info_a250_BL_000.png,BL_000,256,256,ETC1A4,2,jp/info/a250.zrc/info/00.bcres | jp/info/a251.zrc/info/00.bcres,Y
+보스 이름 배너,info_a250_BR_000.png,BR_000,64,256,ETC1A4,2,jp/info/a250.zrc/info/00.bcres | jp/info/a251.zrc/info/00.bcres,Y
+보스 이름 배너,info_a251_BL_001.png,BL_001,256,256,ETC1A4,2,jp/info/a251.zrc/info/00.bcres | jp/info/a252.zrc/info/00.bcres,Y
+보스 이름 배너,info_a251_BR_001.png,BR_001,64,256,ETC1A4,2,jp/info/a251.zrc/info/00.bcres | jp/info/a252.zrc/info/00.bcres,Y
+보스 이름 배너,info_a252_BL_001.png,BL_001,256,256,ETC1A4,2,jp/info/a252.zrc/info/00.bcres | jp/info/a253.zrc/info/00.bcres,Y
+보스 이름 배너,info_a252_BR_001.png,BR_001,64,256,ETC1A4,2,jp/info/a252.zrc/info/00.bcres | jp/info/a253.zrc/info/00.bcres,Y
+보스 이름 배너,info_b030_BL_000.png,BL_000,256,256,ETC1A4,2,jp/info/b030.zrc/info/00.bcres | jp/info/b091.zrc/info/00.bcres,Y
+보스 이름 배너,info_b030_BL_001.png,BL_001,256,256,ETC1A4,2,jp/info/b030.zrc/info/00.bcres | jp/info/b091.zrc/info/00.bcres,Y
+보스 이름 배너,info_b030_BL_002.png,BL_002,256,256,ETC1A4,2,jp/info/b030.zrc/info/00.bcres | jp/info/b091.zrc/info/00.bcres,Y
+보스 이름 배너,info_b030_BR_000.png,BR_000,64,256,ETC1A4,2,jp/info/b030.zrc/info/00.bcres | jp/info/b091.zrc/info/00.bcres,Y
+보스 이름 배너,info_b030_BR_001.png,BR_001,64,256,ETC1A4,2,jp/info/b030.zrc/info/00.bcres | jp/info/b091.zrc/info/00.bcres,Y
+보스 이름 배너,info_b030_BR_002.png,BR_002,64,256,ETC1A4,2,jp/info/b030.zrc/info/00.bcres | jp/info/b091.zrc/info/00.bcres,Y
+보스 이름 배너,info_b090_BL_000.png,BL_000,256,256,ETC1A4,2,jp/info/b090.zrc/info/00.bcres | jp/info/g010.zrc/info/00.bcres,Y
+보스 이름 배너,info_b090_BR_000.png,BR_000,64,256,ETC1A4,2,jp/info/b090.zrc/info/00.bcres | jp/info/g010.zrc/info/00.bcres,Y
+보스 이름 배너,info_b092_BL_000.png,BL_000,256,256,ETC1A4,2,jp/info/b092.zrc/info/00.bcres | jp/info/g050.zrc/info/00.bcres,Y
+보스 이름 배너,info_b092_BR_000.png,BR_000,64,256,ETC1A4,2,jp/info/b092.zrc/info/00.bcres | jp/info/g050.zrc/info/00.bcres,Y
+보스 이름 배너,info_b093_BL_000.png,BL_000,256,256,ETC1A4,1,jp/info/b093.zrc/info/00.bcres,Y
+보스 이름 배너,info_b093_BR_000.png,BR_000,64,256,ETC1A4,1,jp/info/b093.zrc/info/00.bcres,Y
+보스 이름 배너,info_b150_BL_000.png,BL_000,256,256,ETC1A4,1,jp/info/b150.zrc/info/00.bcres,Y
+보스 이름 배너,info_b150_BR_000.png,BR_000,64,256,ETC1A4,1,jp/info/b150.zrc/info/00.bcres,Y
+보스 이름 배너,info_b170_BL_000.png,BL_000,256,256,ETC1A4,1,jp/info/b170.zrc/info/00.bcres,Y
+보스 이름 배너,info_b170_BR_000.png,BR_000,64,256,ETC1A4,1,jp/info/b170.zrc/info/00.bcres,Y
+보스 이름 배너,info_b200_BL_000.png,BL_000,256,256,ETC1A4,1,jp/info/b200.zrc/info/00.bcres,Y
+보스 이름 배너,info_b200_BR_000.png,BR_000,64,256,ETC1A4,1,jp/info/b200.zrc/info/00.bcres,Y
+보스 이름 배너,info_b240_BL_000.png,BL_000,256,256,ETC1A4,2,jp/info/b240.zrc/info/00.bcres | jp/info/g100.zrc/info/00.bcres,Y
+보스 이름 배너,info_b240_BR_000.png,BR_000,64,256,ETC1A4,2,jp/info/b240.zrc/info/00.bcres | jp/info/g100.zrc/info/00.bcres,Y
+보스 이름 배너,info_b241_BL_000.png,BL_000,256,256,ETC1A4,2,jp/info/b241.zrc/info/00.bcres | jp/info/g110.zrc/info/00.bcres,Y
+보스 이름 배너,info_b241_BR_000.png,BR_000,64,256,ETC1A4,2,jp/info/b241.zrc/info/00.bcres | jp/info/g110.zrc/info/00.bcres,Y
+보스 이름 배너,info_b242_BL_000.png,BL_000,256,256,ETC1A4,2,jp/info/b242.zrc/info/00.bcres | jp/info/g080.zrc/info/00.bcres,Y
+보스 이름 배너,info_b242_BR_000.png,BR_000,64,256,ETC1A4,2,jp/info/b242.zrc/info/00.bcres | jp/info/g080.zrc/info/00.bcres,Y
+보스 이름 배너,info_b243_BL_000.png,BL_000,256,256,ETC1A4,1,jp/info/b243.zrc/info/00.bcres,Y
+보스 이름 배너,info_b243_BL_001.png,BL_001,256,256,ETC1A4,1,jp/info/b243.zrc/info/00.bcres,Y
+보스 이름 배너,info_b243_BL_002.png,BL_002,256,256,ETC1A4,1,jp/info/b243.zrc/info/00.bcres,Y
+보스 이름 배너,info_b243_BR_000.png,BR_000,64,256,ETC1A4,1,jp/info/b243.zrc/info/00.bcres,Y
+보스 이름 배너,info_b243_BR_001.png,BR_001,64,256,ETC1A4,1,jp/info/b243.zrc/info/00.bcres,Y
+보스 이름 배너,info_b243_BR_002.png,BR_002,64,256,ETC1A4,1,jp/info/b243.zrc/info/00.bcres,Y
+보스 이름 배너,info_b244_BL_000.png,BL_000,256,256,ETC1A4,1,jp/info/b244.zrc/info/00.bcres,Y
+보스 이름 배너,info_b244_BR_000.png,BR_000,64,256,ETC1A4,1,jp/info/b244.zrc/info/00.bcres,Y
+보스 이름 배너,info_g020_BL_000.png,BL_000,256,256,ETC1A4,1,jp/info/g020.zrc/info/00.bcres,Y
+보스 이름 배너,info_g020_BR_000.png,BR_000,64,256,ETC1A4,1,jp/info/g020.zrc/info/00.bcres,Y
+보스 이름 배너,info_g030_BL_000.png,BL_000,256,256,ETC1A4,1,jp/info/g030.zrc/info/00.bcres,Y
+보스 이름 배너,info_g030_BL_001.png,BL_001,256,256,ETC1A4,1,jp/info/g030.zrc/info/00.bcres,Y
+보스 이름 배너,info_g030_BL_002.png,BL_002,256,256,ETC1A4,1,jp/info/g030.zrc/info/00.bcres,Y
+보스 이름 배너,info_g030_BR_000.png,BR_000,64,256,ETC1A4,1,jp/info/g030.zrc/info/00.bcres,Y
+보스 이름 배너,info_g030_BR_001.png,BR_001,64,256,ETC1A4,1,jp/info/g030.zrc/info/00.bcres,Y
+보스 이름 배너,info_g030_BR_002.png,BR_002,64,256,ETC1A4,1,jp/info/g030.zrc/info/00.bcres,Y
+보스 이름 배너,info_g040_BL_000.png,BL_000,256,256,ETC1A4,1,jp/info/g040.zrc/info/00.bcres,Y
+보스 이름 배너,info_g040_BR_000.png,BR_000,64,256,ETC1A4,1,jp/info/g040.zrc/info/00.bcres,Y
+보스 이름 배너,info_g070_BL_000.png,BL_000,256,256,ETC1A4,1,jp/info/g070.zrc/info/00.bcres,Y
+보스 이름 배너,info_g070_BR_000.png,BR_000,64,256,ETC1A4,1,jp/info/g070.zrc/info/00.bcres,Y
+보스 이름 배너,info_g120_BL_000.png,BL_000,256,256,ETC1A4,1,jp/info/g120.zrc/info/00.bcres,Y
+보스 이름 배너,info_g120_BR_000.png,BR_000,64,256,ETC1A4,1,jp/info/g120.zrc/info/00.bcres,Y
+보스 이름 배너,info_g130_BL_000.png,BL_000,256,256,ETC1A4,1,jp/info/g130.zrc/info/00.bcres,Y
+보스 이름 배너,info_g130_BL_001.png,BL_001,256,256,ETC1A4,1,jp/info/g130.zrc/info/00.bcres,Y
+보스 이름 배너,info_g130_BR_000.png,BR_000,64,256,ETC1A4,1,jp/info/g130.zrc/info/00.bcres,Y
+보스 이름 배너,info_g130_BR_001.png,BR_001,64,256,ETC1A4,1,jp/info/g130.zrc/info/00.bcres,Y
+보스 이름 배너,info_g140_BL_000.png,BL_000,256,256,ETC1A4,1,jp/info/g140.zrc/info/00.bcres,Y
+보스 이름 배너,info_g140_BR_000.png,BR_000,64,256,ETC1A4,1,jp/info/g140.zrc/info/00.bcres,Y
+보스 이름 배너,info_g160_BL_000.png,BL_000,256,256,ETC1A4,1,jp/info/g160.zrc/info/00.bcres,Y
+보스 이름 배너,info_g160_BR_000.png,BR_000,64,256,ETC1A4,1,jp/info/g160.zrc/info/00.bcres,Y
+보스 이름 배너,info_g180_BL_000.png,BL_000,256,256,ETC1A4,1,jp/info/g180.zrc/info/00.bcres,Y
+보스 이름 배너,info_g180_BR_000.png,BR_000,64,256,ETC1A4,1,jp/info/g180.zrc/info/00.bcres,Y
+보스 이름 배너,info_g190_BL_000.png,BL_000,256,256,ETC1A4,1,jp/info/g190.zrc/info/00.bcres,Y
+보스 이름 배너,info_g190_BR_000.png,BR_000,64,256,ETC1A4,1,jp/info/g190.zrc/info/00.bcres,Y
+보스 이름 배너,info_g220_BL_000.png,BL_000,256,256,ETC1A4,1,jp/info/g220.zrc/info/00.bcres,Y
+보스 이름 배너,info_g220_BL_001.png,BL_001,256,256,ETC1A4,1,jp/info/g220.zrc/info/00.bcres,Y
+보스 이름 배너,info_g220_BR_000.png,BR_000,64,256,ETC1A4,1,jp/info/g220.zrc/info/00.bcres,Y
+보스 이름 배너,info_g220_BR_001.png,BR_001,64,256,ETC1A4,1,jp/info/g220.zrc/info/00.bcres,Y
+보스 이름 배너,info_g230_BL_000.png,BL_000,256,256,ETC1A4,1,jp/info/g230.zrc/info/00.bcres,Y
+보스 이름 배너,info_g230_BR_000.png,BR_000,64,256,ETC1A4,1,jp/info/g230.zrc/info/00.bcres,Y
+스테이지,stage_g0501_g05m01_syounin01.png,g05m01_syounin01,256,64,RGBA5551,1,jp/stage/g0501.zrc/stage/bind13.arc/bind/00.bcres,Y
+싱글 전투 UI,info_single_rc_00.png,rc_00,256,256,ETC1A4,1,jp/info/single.zrc/info/00.bcres,Y
+싱글 전투 UI,info_single_rc_01.png,rc_01,256,128,ETC1A4,1,jp/info/single.zrc/info/00.bcres,Y
+싱글 전투 UI,info_single_rm_00.png,rm_00,256,128,LA4,1,jp/info/single.zrc/info/00.bcres,Y
+연출 글자(격파·승리·정화·스태프롤),info_a260_SP_000.png,SP_000,256,256,LA4,1,jp/info/a260.zrc/info/00.bcres,
+연출 글자(격파·승리·정화·스태프롤),info_a260_SP_003.png,SP_003,512,256,ETC1A4,1,jp/info/a260.zrc/info/00.bcres,
+연출 글자(격파·승리·정화·스태프롤),info_b150_SP_000.png,SP_000,256,128,ETC1A4,4,jp/info/b150.zrc/info/00.bcres | jp/info/b200.zrc/info/00.bcres | jp/info/g120.zrc/info/00.bcres | jp/info/g160.zrc/info/00.bcres,Y
+연출 글자(격파·승리·정화·스태프롤),info_b244_SP_000.png,SP_000,256,128,ETC1A4,3,jp/info/b244.zrc/info/00.bcres | jp/info/g060.zrc/info/00.bcres | jp/info/g190.zrc/info/00.bcres,Y
+전투 공용 UI,info_common_gc_00.png,gc_00,256,256,ETC1A4,1,jp/info/common.zrc/info/00.bcres,Y
+전투 공용 UI,info_common_gm_00.png,gm_00,256,256,LA4,1,jp/info/common.zrc/info/00.bcres,Y
+전투 공용 UI,info_common_gm_01.png,gm_01,256,256,LA4,1,jp/info/common.zrc/info/00.bcres,Y
+전투 공용 UI,info_common_gm_02.png,gm_02,256,256,LA4,1,jp/info/common.zrc/info/00.bcres,Y
+조작 설명(튜토리얼),info_a700_SP_000.png,SP_000,256,64,LA4,1,jp/info/a700.zrc/info/00.bcres,Y
+조작 설명(튜토리얼),info_a700_SP_001.png,SP_001,256,256,LA4,1,jp/info/a700.zrc/info/00.bcres,Y
+조작 설명(튜토리얼),info_a700_SP_002.png,SP_002,256,64,LA4,1,jp/info/a700.zrc/info/00.bcres,Y
+조작 설명(튜토리얼),info_a700_SP_003.png,SP_003,256,64,LA4,1,jp/info/a700.zrc/info/00.bcres,Y
+조작 설명(튜토리얼),info_a700_SP_004.png,SP_004,256,64,LA4,1,jp/info/a700.zrc/info/00.bcres,Y
+조작 설명(튜토리얼),info_a700_SP_005.png,SP_005,512,512,LA4,2,jp/info/a700.zrc/info/00.bcres | jp/menu/000.zrc/menu/bind.arc/bind/00.bcres,Y
+조작 설명(튜토리얼),info_a700_SP_006.png,SP_006,512,256,LA4,1,jp/info/a700.zrc/info/00.bcres,Y
+조작 설명(튜토리얼),info_a700_SP_007.png,SP_007,256,64,LA4,1,jp/info/a700.zrc/info/00.bcres,Y
+조작 설명(튜토리얼),info_a700_SP_008.png,SP_008,256,64,LA4,1,jp/info/a700.zrc/info/00.bcres,Y
+조작 설명(튜토리얼),info_a700_SP_009.png,SP_009,256,64,LA4,1,jp/info/a700.zrc/info/00.bcres,Y
+조작 설명(튜토리얼),info_a700_SP_010.png,SP_010,512,256,LA4,1,jp/info/a700.zrc/info/00.bcres,Y
+조작 설명(튜토리얼),info_a700_SP_011.png,SP_011,512,256,LA4,1,jp/info/a700.zrc/info/00.bcres,Y
+조작 설명(튜토리얼),info_a700_SP_012.png,SP_012,256,64,LA4,1,jp/info/a700.zrc/info/00.bcres,Y
+조작 설명(튜토리얼),info_a700_SP_013.png,SP_013,256,64,LA4,1,jp/info/a700.zrc/info/00.bcres,Y
+조작 설명(튜토리얼),info_a700_SP_014.png,SP_014,256,64,LA4,1,jp/info/a700.zrc/info/00.bcres,Y
+조작 설명(튜토리얼),info_a700_SP_020.png,SP_020,128,64,RGBA4,1,jp/info/a700.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a010_CP_000.png,CP_000,256,64,L4,2,jp/info/a010.zrc/info/00.bcres | jp/info/g010.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a020_CP_000.png,CP_000,256,64,L4,2,jp/info/a020.zrc/info/00.bcres | jp/info/g020.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a030_CP_000.png,CP_000,256,64,L4,3,jp/info/a030.zrc/info/00.bcres | jp/info/b030.zrc/info/00.bcres | jp/info/g030.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a040_CP_000.png,CP_000,256,64,L4,2,jp/info/a040.zrc/info/00.bcres | jp/info/g040.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a050_CP_000.png,CP_000,256,64,L4,2,jp/info/a050.zrc/info/00.bcres | jp/info/g050.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a060_CP_000.png,CP_000,256,64,L4,2,jp/info/a060.zrc/info/00.bcres | jp/info/g060.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a070_CP_000.png,CP_000,256,64,L4,2,jp/info/a070.zrc/info/00.bcres | jp/info/g070.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a080_CP_000.png,CP_000,256,64,L4,2,jp/info/a080.zrc/info/00.bcres | jp/info/g080.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a090_CP_000.png,CP_000,256,64,L4,6,jp/info/a090.zrc/info/00.bcres | jp/info/b090.zrc/info/00.bcres | jp/info/b091.zrc/info/00.bcres | jp/info/b092.zrc/info/00.bcres | jp/info/b093.zrc/info/00.bcres | jp/info/g090.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a100_CP_000.png,CP_000,256,64,L4,2,jp/info/a100.zrc/info/00.bcres | jp/info/g100.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a110_CP_000.png,CP_000,256,64,L4,2,jp/info/a110.zrc/info/00.bcres | jp/info/g110.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a120_CP_000.png,CP_000,256,64,L4,2,jp/info/a120.zrc/info/00.bcres | jp/info/g120.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a130_CP_000.png,CP_000,256,64,L4,2,jp/info/a130.zrc/info/00.bcres | jp/info/g130.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a140_CP_000.png,CP_000,256,64,L4,2,jp/info/a140.zrc/info/00.bcres | jp/info/g140.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a150_CP_000.png,CP_000,256,64,L4,3,jp/info/a150.zrc/info/00.bcres | jp/info/b150.zrc/info/00.bcres | jp/info/g150.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a160_CP_000.png,CP_000,256,64,L4,2,jp/info/a160.zrc/info/00.bcres | jp/info/g160.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a170_CP_000.png,CP_000,256,64,L4,3,jp/info/a170.zrc/info/00.bcres | jp/info/b170.zrc/info/00.bcres | jp/info/g170.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a180_CP_000.png,CP_000,256,64,L4,2,jp/info/a180.zrc/info/00.bcres | jp/info/g180.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a190_CP_000.png,CP_000,256,64,L4,2,jp/info/a190.zrc/info/00.bcres | jp/info/g190.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a200_CP_000.png,CP_000,256,64,L4,3,jp/info/a200.zrc/info/00.bcres | jp/info/b200.zrc/info/00.bcres | jp/info/g200.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a210_CP_000.png,CP_000,256,64,L4,2,jp/info/a210.zrc/info/00.bcres | jp/info/g210.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a220_CP_000.png,CP_000,256,64,L4,2,jp/info/a220.zrc/info/00.bcres | jp/info/g220.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a230_CP_000.png,CP_000,256,64,L4,2,jp/info/a230.zrc/info/00.bcres | jp/info/g230.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a240_CP_000.png,CP_000,256,64,L4,7,jp/info/a240.zrc/info/00.bcres | jp/info/b240.zrc/info/00.bcres | jp/info/b241.zrc/info/00.bcres | jp/info/b242.zrc/info/00.bcres | jp/info/b243.zrc/info/00.bcres | jp/info/b244.zrc/info/00.bcres | jp/info/g240.zrc/info/00.bcres,Y
+챕터 제목 카드,info_a250_CP_000.png,CP_000,256,64,L4,4,jp/info/a250.zrc/info/00.bcres | jp/info/a251.zrc/info/00.bcres | jp/info/a252.zrc/info/00.bcres | jp/info/a253.zrc/info/00.bcres,Y
+모델 텍스처(가짜 파르테나 이마 オレ),doll_052_Palum_modoki.png,Palum_modoki,64,64,ETC1,1,jp/doll/052.zrc/doll/bind.arc/bind/00.bcres
+모델 텍스처(가짜 파르테나 이마 オレ),stage_b3001_b301_Bos_Modoki.png,b301_Bos_Modoki,256,256,ETC1,1,jp/stage/b3001.zrc/stage/bind00.arc/bind/00.bcres

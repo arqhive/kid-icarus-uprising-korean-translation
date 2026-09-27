@@ -1,0 +1,37 @@
+# 게임 데이터 (저작권 — 커밋하지 않음)
+*.cia
+*.cxi
+*.3ds
+*.app
+extract/
+unpack/
+emu/
+
+# 복호화 키 (절대 커밋하지 않음)
+seeddb.bin
+boot9.bin
+
+# 원문·게임 그래픽이 든 작업 산출물 (커밋하지 않음)
+work/
+text/
+review/
+images/
+translation/units.json
+*.log
+
+# 폰트 (라이선스와 함께 따로 받음 — README 참고)
+tools/fonts/
+
+# 외부 도구 (README 참고)
+tools/bin/
+
+# 빌드·배포 산출물
+release/luma/
+release/python/
+release/patcher/lib/
+release/patcher/bin/
+release/patcher/payload/
+release/*.zip
+
+__pycache__/
+*.pyc

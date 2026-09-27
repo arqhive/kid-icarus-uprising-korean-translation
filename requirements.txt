@@ -1,0 +1,4 @@
+pyctr>=0.7
+Pillow>=10
+numpy>=1.24
+etcpak>=0.9
