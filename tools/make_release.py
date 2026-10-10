@@ -3,14 +3,14 @@
 
   python tools/build_all.py
   python tools/build_sysfont.py --cfa-only                           # Azahar 한글 시스템 폰트(work/font/cfa/font.cfa)
-  python tools/make_patcher.py v0.1 [--python <임베디드 파이썬>]      # release/patcher·release/python 채우기
-  python tools/make_release.py v0.1
+  python tools/make_patcher.py v0.2 [--python <임베디드 파이썬>]      # release/patcher·release/python 채우기
+  python tools/make_release.py v0.2
 
-release/KidIcarusUprising_KO_<버전>_LayeredFS.zip
+release/AKDJ_KPatch_<버전>_LayeredFS.zip
   luma/titles/0004000000030000/romfs/...   SD 카드 루트에 푸는 LayeredFS 패치
-release/KidIcarusUprising_KO_<버전>_Patcher.zip
-  KidIcarusUprising_KO_<버전>_Patcher/패치하기.bat, patcher/, python/   일본판 CIA·3DS 를 한글판으로 만드는 패처
-release/KidIcarusUprising_KO_<버전>_AzaharFont.zip
+release/AKDJ_KPatch_<버전>_CIA.zip
+  AKDJ_KPatch_<버전>_CIA/패치하기.bat, patcher/, python/   일본판 CIA·3DS 를 한글판으로 만드는 패처
+release/AKDJ_KPatch_<버전>_AzaharFont.zip
   Azahar 한글 시스템 폰트(00000000.app)와 설치 안내
 셋 다 README_KO.txt(= release/README_한국어.txt), LICENSE.txt 를 넣는다.
 """
@@ -21,7 +21,7 @@ TID = '0004000000030000'
 REL = os.path.join(ROOT, 'release')
 LUMA = os.path.join(REL, 'luma')
 FONT_CFA = os.path.join(ROOT, 'work', 'font', 'cfa', 'font.cfa')
-NAME = 'KidIcarusUprising_KO_%s'
+NAME = 'AKDJ_KPatch_%s'
 
 
 def add_tree(z, src, arc):
@@ -52,8 +52,8 @@ def main():
             z.write(p, name)
     print('%s: LayeredFS 파일 %d개 (%s 바이트)' % (a, n, format(os.path.getsize(a), ',')))
 
-    b = os.path.join(REL, (NAME + '_Patcher.zip') % ver)
-    top = (NAME + '_Patcher') % ver
+    b = os.path.join(REL, (NAME + '_CIA.zip') % ver)
+    top = (NAME + '_CIA') % ver
     with zipfile.ZipFile(b, 'w', zipfile.ZIP_DEFLATED) as z:
         z.write(os.path.join(REL, '패치하기.bat'), top + '/패치하기.bat')
         n = add_tree(z, os.path.join(REL, 'patcher'), top + '/patcher')
