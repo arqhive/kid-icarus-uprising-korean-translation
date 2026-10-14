@@ -3,13 +3,13 @@
 *新・光神話 パルテナの鏡* (닌텐도 3DS, 일본판 `CTR-P-AKDJ` / `0004000000030000`) 비공식 한국어 팬 패치입니다.
 대사는 일본어판 원문을 기준으로 번역했습니다.
 
-**제작: arqhive** · **최신 버전: [v0.2](../../releases/tag/v0.2)**
+**제작: arqhive** · **최신 버전: [v0.3](../../releases/tag/v0.3)**
 
 - 게임 안의 문장 8,218종(같은 문장이 쓰인 곳까지 합치면 메시지 25,422개)을 모두 번역했습니다. 공중전·지상전 대사, 게임 방법 영상 자막, 메뉴, 도감, 팁, 보물 상자 과제, 스태프롤이 들어 있습니다.
 - 메뉴 버튼, 보스 이름, 챕터 제목, 조작 설명 등 그림 글씨 265장과 타이틀 로고, HOME 메뉴 배너를 한글로 바꿨습니다.
 - 스태프롤 전용 폰트에 한글 147자를 넣었습니다.
 - **본문 글자는 본체 시스템 폰트로 그려지므로 한국판 3DS 본체에서만 한글이 나옵니다.** Azahar용 한글 시스템 폰트를 함께 배포합니다.
-- 배포본은 romfs 파일 242개를 덮어씌우는 LayeredFS 패치, 일본판 CIA 또는 3DS 파일을 한글판으로 바꾸는 패처, Azahar 한글 폰트 세 가지입니다. LayeredFS와 패처는 둘 중 하나만 쓰면 됩니다.
+- 배포본은 romfs 파일 243개를 덮어씌우는 LayeredFS 패치, 일본판 CIA 또는 3DS 파일을 한글판으로 바꾸는 패처, Azahar 한글 폰트 세 가지입니다. LayeredFS와 패처는 둘 중 하나만 쓰면 됩니다.
 
 > 이 저장소에는 **게임 데이터(롬·디스크 이미지, 추출한 원문 대사, 그래픽, 스크린샷)가 들어 있지 않습니다.**
 > 패치를 만들거나 적용하려면 본인이 소유한 게임에서 직접 덤프한 원본이 필요합니다.
@@ -28,14 +28,14 @@
 
 | | 방법 A. LayeredFS | 방법 B. 패처로 한글판 CIA·3DS 만들기 |
 |---|---|---|
-| 받는 파일 | `AKDJ_KPatch_v0.2_LayeredFS.zip` | `AKDJ_KPatch_v0.2_CIA.zip` |
+| 받는 파일 | `AKDJ_KPatch_v0.3_LayeredFS.zip` | `AKDJ_KPatch_v0.3_CIA.zip` |
 | 게임 내 한글 | 적용 | 적용 |
 | HOME 메뉴 게임 이름·배너 | 일본어 그대로 | 한글 |
 | 필요한 것 | 이미 설치된 일본판, Luma3DS 게임 패치 설정 | 일본판 파일 하나(3DS 실기 설치용이면 `.cia`, 에뮬레이터·플래시카트용이면 `.3ds`), 윈도우 PC, 암호화된 원본이면 `boot9.bin` |
 | 되돌리기 | SD 카드의 폴더만 지우면 원래대로 | 원본 CIA를 다시 설치 |
 | 에뮬레이터 | Azahar 모드 폴더에 복사 | 만든 3DS·CIA를 바로 실행 |
 
-Azahar로 실행한다면 두 방법 모두 `AKDJ_KPatch_v0.2_AzaharFont.zip`을 함께 받아 설치해야 합니다.
+Azahar로 실행한다면 두 방법 모두 `AKDJ_KPatch_v0.3_AzaharFont.zip`을 함께 받아 설치해야 합니다.
 
 #### 방법 A. LayeredFS
 
@@ -50,11 +50,11 @@ Azahar로 실행한다면 두 방법 모두 `AKDJ_KPatch_v0.2_AzaharFont.zip`을
 3. 원본과 같은 폴더에 `원래 이름_KO.cia` 또는 `원래 이름_KO.3ds`가 생깁니다. 원본 파일은 바뀌지 않습니다.
 4. 3DS 실기에는 만든 CIA를 설치합니다. 이미 설치된 일본판에 덮어 설치해도 세이브는 유지됩니다.
 
-패처는 원본을 풀어 게임 내 한글 파일 242개와 HOME 메뉴 배너·게임 이름을 바꾼 뒤 다시 묶습니다. 넣은 파일이 일본판 본편인지, 바꿀 파일이 원본 그대로인지 먼저 확인합니다. 파이썬이 함께 들어 있어 따로 설치할 것은 없습니다.
+패처는 원본을 풀어 게임 내 한글 파일 243개와 HOME 메뉴 배너·게임 이름을 바꾼 뒤 다시 묶습니다. 넣은 파일이 일본판 본편인지, 바꿀 파일이 원본 그대로인지 먼저 확인합니다. 파이썬이 함께 들어 있어 따로 설치할 것은 없습니다.
 
 #### Azahar 한글 폰트
 
-`AKDJ_KPatch_v0.2_AzaharFont.zip` 안의 `nand` 폴더를 Azahar 사용자 폴더(**File → Open Azahar Folder**, 보통 `%APPDATA%\Azahar`)에 복사합니다.
+`AKDJ_KPatch_v0.3_AzaharFont.zip` 안의 `nand` 폴더를 Azahar 사용자 폴더(**File → Open Azahar Folder**, 보통 `%APPDATA%\Azahar`)에 복사합니다.
 Azahar 내장 대체 폰트에 한글 2,350자를 더한 것이라 Azahar로 실행하는 모든 게임에 적용됩니다. 원래대로 돌리려면 `nand/.../title/0004009b/00014002` 폴더를 지우면 됩니다.
 
 자세한 방법은 [`README_한국어.txt`](release/README_한국어.txt)를 참고하세요.
@@ -90,8 +90,8 @@ python tools/build_sysfont.py                         # Azahar 한글 폰트 빌
 python tools/build_all.py [--mod]                     # 텍스트·그림 글씨·타이틀 로고·스태프롤 폰트 → release/luma (--mod: Azahar 모드 폴더에도)
 python tools/verify_build.py                          # 빌드 결과의 메시지 25,833개 전수 대조
 python tools/build_cia.py [--cia 일본판.cia] [--out 한글판.cia]   # 전부 들어간 CIA (.3ds 도 가능)
-python tools/make_patcher.py v0.2 --python <임베디드 파이썬 zip 또는 폴더>   # release/patcher·python 채우기
-python tools/make_release.py v0.2                     # 배포 ZIP 세 개
+python tools/make_patcher.py v0.3 --python <임베디드 파이썬 zip 또는 폴더>   # release/patcher·python 채우기
+python tools/make_release.py v0.3                     # 배포 ZIP 세 개
 ```
 
 CIA·3DS 처리는 `tools/kiupatch.py` 한 곳에 있고, `build_cia.py`와 배포 패처(`release/patcher/patch.py`)가 함께 씁니다(에버 오아시스 한글 패치의 방식).

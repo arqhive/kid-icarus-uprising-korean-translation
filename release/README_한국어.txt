@@ -1,19 +1,19 @@
-신 광신화 파르테나의 거울 (3DS) 한글 패치 v0.2
+신 광신화 파르테나의 거울 (3DS) 한글 패치 v0.3
 제작: arqhive
 
 「新・光神話 パルテナの鏡」(닌텐도 3DS, 일본판) 비공식 한국어 팬 패치입니다.
 배포 파일은 세 가지입니다. 게임 내 한글은 LayeredFS와 패처가 같으니 둘 중 하나만 고르면 됩니다.
 
-- AKDJ_KPatch_v0.2_LayeredFS.zip (방법 A)
+- AKDJ_KPatch_v0.3_LayeredFS.zip (방법 A)
   설치된 일본판은 그대로 두고, Luma3DS의 게임 패치(LayeredFS)나 에뮬레이터의 모드 폴더로 덮어씌웁니다.
   좋은 점: 파일 복사로 끝나고, 키 파일이 필요 없고, 폴더만 지우면 원래대로 돌아갑니다.
   아쉬운 점: HOME 메뉴의 게임 이름과 배너는 일본어로 남고, Luma3DS 게임 패치를 켜 둬야 합니다.
-- AKDJ_KPatch_v0.2_CIA.zip (방법 B)
+- AKDJ_KPatch_v0.3_CIA.zip (방법 B)
   가지고 있는 일본판 CIA나 3DS 파일을 한글판으로 새로 만듭니다.
   좋은 점: HOME 메뉴 배너·게임 이름까지 한글이고, 만든 파일을 에뮬레이터에서 바로 실행할 수 있습니다.
   아쉬운 점: 일본판 CIA 또는 3DS 파일 하나와 윈도우 PC가 필요하고, 암호화된 원본이면 boot9.bin이 필요합니다.
              되돌리려면 원본 CIA를 다시 설치해야 합니다.
-- AKDJ_KPatch_v0.2_AzaharFont.zip
+- AKDJ_KPatch_v0.3_AzaharFont.zip
   에뮬레이터 Azahar에서 한글을 보기 위한 시스템 폰트입니다. Azahar를 쓸 때만 필요합니다.
 
 
@@ -35,7 +35,7 @@
 
 [방법 A. LayeredFS: 3DS 실기 (Luma3DS)]
 
-1. AKDJ_KPatch_v0.2_LayeredFS.zip 안의 luma 폴더를 SD 카드 루트에 그대로 복사합니다.
+1. AKDJ_KPatch_v0.3_LayeredFS.zip 안의 luma 폴더를 SD 카드 루트에 그대로 복사합니다.
    다음과 같이 파일이 놓이면 됩니다.
 
      sd:/luma/titles/0004000000030000/romfs/jp/...
@@ -64,7 +64,7 @@
 1. 쓰려는 곳에 맞는 일본판 파일 하나를 준비합니다.
    3DS 실기에 설치하려면 .cia, 에뮬레이터나 플래시카트에서 쓰려면 .3ds 파일입니다.
    결과는 넣은 파일과 같은 형식으로 나옵니다.
-2. AKDJ_KPatch_v0.2_CIA.zip 을 폴더째 압축 풀고, 준비한 파일을 "패치하기.bat"에 끌어다 놓습니다.
+2. AKDJ_KPatch_v0.3_CIA.zip 을 폴더째 압축 풀고, 준비한 파일을 "패치하기.bat"에 끌어다 놓습니다.
 3. 원본과 같은 폴더에 "원래 이름_KO.cia" 또는 "원래 이름_KO.3ds"가 생깁니다. 원본 파일은 바뀌지 않습니다.
 4. 3DS 실기: 만든 CIA를 FBI 등으로 설치합니다. 이미 설치된 일본판에 덮어 설치해도 세이브는 유지됩니다.
    이렇게 설치했다면 SD 카드의 LayeredFS 폴더(luma/titles/0004000000030000)는 필요 없습니다.
@@ -81,7 +81,7 @@
 
 [Azahar 한글 폰트]
 
-AKDJ_KPatch_v0.2_AzaharFont.zip 안의 nand 폴더를 Azahar 사용자 폴더에 그대로 복사합니다.
+AKDJ_KPatch_v0.3_AzaharFont.zip 안의 nand 폴더를 Azahar 사용자 폴더에 그대로 복사합니다.
 Azahar 사용자 폴더는 Azahar 메뉴 File → Open Azahar Folder로 열 수 있습니다(보통 %APPDATA%\Azahar).
 
      …/Azahar/nand/00000000000000000000000000000000/title/0004009b/00014002/content/00000000.app
