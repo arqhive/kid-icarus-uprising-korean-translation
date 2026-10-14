@@ -9,6 +9,7 @@
 - 그림: images/GPT/게임내/<분류>/<파일>.png(로컬) → translation/graphics.csv 의 원본 경로 전부(같은 md5 인스턴스)
 - 타이틀 로고: build_title_logo 채색판(ETC1A4) + 뒤 색판 메시 끄기(plan_title)
 - 스태프롤 폰트: tools/build_stafffont.make()
+- 신기 「가나다 순」 정렬 번호: 1.arc 신기 자료의 jpJnameIndex_ 를 한글 이름 순서로(plan_sort)
 romfs 파일마다 한 번만 풀고(LZ11·darc 여러 겹) 모든 교체를 한 뒤 다시 묶는다.
 """
 import sys, os, csv, json, shutil, hashlib, collections, time
@@ -107,6 +108,32 @@ def plan_title():
     return jobs
 
 
+WEAPON_PARAM = 'jp/1.arc/resident/json.arc/json/00.json'
+
+
+def plan_sort():
+    """신기 「가나다 순」: 게임은 이름이 아니라 신기마다 붙은 일본어 이름 순서 번호(jpJnameIndex_)로 정렬한다.
+    같은 번호들(1~108)을 한글 이름 가나다순(띄어쓰기 무시)으로 다시 매긴다. paramUnit_[i] = Wp_(i+1)."""
+    import struct, re, pslb
+    d = bytearray(open(os.path.join(ROOT, 'unpack', 'jp', WEAPON_PARAM), 'rb').read())
+    units = pslb.parse(bytes(d))['weaponAbstruct_']['paramUnit_']
+    old = [u['jpJnameIndex_'] for u in units]
+    key = b'jpJnameIndex_'
+    offs = [m.end() for m in re.finditer(re.escape(struct.pack('<I', len(key)) + key), d)]
+    assert len(offs) == len(old) and all(d[o] == 2 and struct.unpack_from('<i', d, o + 1)[0] == v
+                                         for o, v in zip(offs, old)), '신기 순서 번호 위치가 예상과 다름'
+    ko = build_text.load_ko()
+    names = [ko['0.arc/resident/03.bin#Wp_%03d' % (i + 1)] for i in range(len(old))]
+    order = sorted(range(len(old)), key=lambda i: (names[i].replace(' ', ''), i))
+    vals = sorted(old)
+    for r, i in enumerate(order):
+        struct.pack_into('<i', d, offs[i] + 1, vals[r])
+    jobs = collections.defaultdict(list)
+    ch = build_text.split_path(WEAPON_PARAM)
+    jobs[ch[0]].append((tuple(ch[1:]), ('raw', bytes(d))))
+    return jobs
+
+
 def plan_text():
     per = build_text.load_ko()
     jobs = collections.defaultdict(list)
@@ -202,6 +229,8 @@ def main():
     for k, v in tj.items():
         jobs[k] += v
     for k, v in plan_title().items():
+        jobs[k] += v
+    for k, v in plan_sort().items():
         jobs[k] += v
     font, added = build_stafffont.make()
     ch = build_text.split_path(STAFF_FONT)
