@@ -61,7 +61,7 @@ def pairs():
 
 def main():
     os.makedirs(OUT, exist_ok=True)
-    for p in glob.glob(os.path.join(OUT, '*.png')):
+    for p in glob.glob(os.path.join(glob.escape(OUT), '*.png')):
         os.remove(p)
     bycat = {}
     for cat, name, a, b in pairs():

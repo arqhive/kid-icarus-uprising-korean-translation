@@ -153,7 +153,7 @@ def check(name, quiet=False):
 
 def apply():
     allko = {}
-    for p in sorted(glob.glob(os.path.join(T, 'batches', '*.json'))):
+    for p in sorted(glob.glob(os.path.join(glob.escape(T), 'batches', '*.json'))):
         allko.update(json.load(open(p, encoding='utf-8')))
     json.dump(allko, open(os.path.join(T, 'ko.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print('반영 %d개 → translation/ko.json' % len(allko))
@@ -162,7 +162,7 @@ def apply():
 def status():
     us = load_units()
     ko = {}
-    for p in glob.glob(os.path.join(T, 'batches', '*.json')):
+    for p in glob.glob(os.path.join(glob.escape(T), 'batches', '*.json')):
         ko.update(json.load(open(p, encoding='utf-8')))
     c = collections.Counter(); d = collections.Counter()
     for u in us:
