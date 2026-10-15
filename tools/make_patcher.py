@@ -2,7 +2,7 @@
 """CIA·3DS 패처 꾸리기 → release/patcher (payload·lib·bin) + release/python(임베디드 파이썬)
 
   python tools/build_all.py                    # 먼저 한글 romfs 를 만든다(release/luma)
-  python tools/make_patcher.py v0.4.3 [--python <임베디드 파이썬 zip 또는 폴더>]
+  python tools/make_patcher.py v0.4.4 [--python <임베디드 파이썬 zip 또는 폴더>]
 
 payload 에는 한글 romfs 파일, 배너 로고 텍스처(한글판), 게임 이름, 원본 파일 MD5 만 담는다.
 배너·아이콘은 사용자 파일 안의 것을 고쳐 쓰므로 원본 배너·아이콘은 들어가지 않는다.
