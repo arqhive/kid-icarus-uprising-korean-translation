@@ -10,6 +10,7 @@
 - 타이틀 로고: build_title_logo 채색판(ETC1A4) + 뒤 색판 메시 끄기(plan_title)
 - 스태프롤 폰트: tools/build_stafffont.make()
 - 신기 「가나다 순」 정렬 번호: 1.arc 신기 자료의 jpJnameIndex_ 를 한글 이름 순서로(plan_sort)
+- 기적 「가나다 순」 정렬 번호: 0.arc 기적 자료의 jpJpIndex_ 도 같은 방식(plan_sort_miracle)
 romfs 파일마다 한 번만 풀고(LZ11·darc 여러 겹) 모든 교체를 한 뒤 다시 묶는다.
 """
 import sys, os, csv, json, shutil, hashlib, collections, time
@@ -130,6 +131,48 @@ def plan_sort():
         struct.pack_into('<i', d, offs[i] + 1, vals[r])
     jobs = collections.defaultdict(list)
     ch = build_text.split_path(WEAPON_PARAM)
+    jobs[ch[0]].append((tuple(ch[1:]), ('raw', bytes(d))))
+    for k, v in plan_sort_miracle().items():
+        jobs[k] += v
+    return jobs
+
+
+MIRACLE_PARAM = 'jp/0.arc/resident/04.json'
+# 기적 이름 라벨: name_ 의 번호와 03.bin 라벨 번호가 어긋나 있어 일본어 원래 순서(jpJpIndex_)로 맞춰 확인한 대응
+MIRACLE_LABEL_FIX = {'mrclHeal_': 48, 'mrclBreakHeal_': 6, 'mrclUnknown_': 62}
+
+
+def plan_sort_miracle():
+    """기적 「가나다 순」: 신기처럼 기적 레벨마다 붙은 일본어 이름 순서 번호(jpJpIndex_)로 정렬한다.
+    같은 번호들을 한글 이름 가나다순(띄어쓰기 무시, 「P」는 「피」로 읽음)·레벨 순으로 다시 매긴다. 999(의문의 기적)는 그대로."""
+    import struct, re, pslb
+    d = bytearray(open(os.path.join(ROOT, 'unpack', 'jp', MIRACLE_PARAM), 'rb').read())
+    params = pslb.parse(bytes(d))['miracleParams_']
+    ko = build_text.load_ko()
+    entries = []                      # (한글 이름, 레벨, 원래 번호), 파일 안 순서
+    labels = set()
+    for k, v in params.items():
+        if not (isinstance(v, list) and v and isinstance(v[0], dict) and 'jpJpIndex_' in v[0]):
+            continue
+        n = int(v[0]['name_'][3:])
+        lab = MIRACLE_LABEL_FIX.get(k, n + 1 if n < 45 else n)
+        labels.add(lab)
+        name = ko['0.arc/resident/03.bin#Mr_%03d' % lab]
+        for e in v:
+            entries.append((name, e['level_'], e['jpJpIndex_']))
+    key = b'jpJpIndex_'
+    offs = [m.end() for m in re.finditer(re.escape(struct.pack('<I', len(key)) + key), d)]
+    old = [struct.unpack_from('<i', d, o + 1)[0] for o in offs]
+    assert len(labels) == 62 and len(offs) == len(entries) and all(d[o] == 2 for o in offs), '기적 순서 번호 위치가 예상과 다름'
+    # 파일 안 순서가 parse 순서와 같은지: 원래 번호 목록이 같아야 함
+    assert sorted(old) == sorted(e[2] for e in entries) and old == [e[2] for e in entries], '기적 항목 순서가 예상과 다름'
+    idx = [i for i, e in enumerate(entries) if e[2] != 999]
+    order = sorted(idx, key=lambda i: (entries[i][0].replace(' ', '').replace('P', '피'), entries[i][1], i))
+    vals = sorted(entries[i][2] for i in idx)
+    for r, i in enumerate(order):
+        struct.pack_into('<i', d, offs[i] + 1, vals[r])
+    jobs = collections.defaultdict(list)
+    ch = build_text.split_path(MIRACLE_PARAM)
     jobs[ch[0]].append((tuple(ch[1:]), ('raw', bytes(d))))
     return jobs
 
