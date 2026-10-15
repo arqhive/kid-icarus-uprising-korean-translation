@@ -3,8 +3,8 @@
 
   python tools/build_all.py
   python tools/build_sysfont.py --cfa-only                           # Azahar 한글 시스템 폰트(work/font/cfa/font.cfa)
-  python tools/make_patcher.py v0.4.2 [--python <임베디드 파이썬>]      # release/patcher·release/python 채우기
-  python tools/make_release.py v0.4.2
+  python tools/make_patcher.py v0.4.3 [--python <임베디드 파이썬>]      # release/patcher·release/python 채우기
+  python tools/make_release.py v0.4.3
 
 release/AKDJ_KPatch_<버전>_LayeredFS.zip
   luma/titles/0004000000030000/romfs/...   SD 카드 루트에 푸는 LayeredFS 패치
